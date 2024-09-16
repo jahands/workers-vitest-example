@@ -1,0 +1,5 @@
+.changeset
+pnpm-lock.yaml
+turbo/generators/**/*.hbs
+**/drizzle/meta/**/*.json
+**/migrations/**/*.sql

@@ -1,0 +1,19 @@
+{
+	"name": "@repo/cftrace",
+	"version": "1.0.6",
+	"private": true,
+	"description": "",
+	"license": "ISC",
+	"author": "",
+	"sideEffects": false,
+	"main": "index.ts",
+	"scripts": {
+		"check:lint": "run-eslint-workers",
+		"check:types": "run-tsc"
+	},
+	"devDependencies": {
+		"@repo/tools": "workspace:*",
+		"@repo/typescript-config": "workspace:*",
+		"vitest": "1.3.0"
+	}
+}
