@@ -7,5 +7,6 @@ To run tests:
 pnpm install
 
 # Run tests
+cd apps/<package to test>
 pnpm vitest
 ```

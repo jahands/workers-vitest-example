@@ -24,7 +24,7 @@ const config = {
 		},
 		{
 			dependencies: ['vitest', '@vitest/ui'],
-			pinVersion: '1.3.0',
+			isIgnored: true, // Want to test various vitest versions
 		},
 		{
 			label: 'pin opentelemetry to match otel-cf-workers',
