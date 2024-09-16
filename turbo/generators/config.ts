@@ -111,7 +111,7 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
 				}
 			}
 
-			actions.push({ type: 'updateWorkflows' })
+			// actions.push({ type: 'updateWorkflows' })
 			return actions
 		},
 	})
